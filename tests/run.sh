@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo "I've changed the script"
+echo "I've the script"
 
