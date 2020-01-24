@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
-exit 1
+echo "I've changed the script"
+
