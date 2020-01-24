@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo "Hello there!"
+echo "I've changed the script"
+
