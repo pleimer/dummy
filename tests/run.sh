@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exit 22 
+echo "Hello there!"
