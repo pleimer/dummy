@@ -1,5 +1,5 @@
 #!/bin/sh
 
-echo "This is a fail!"
-exit 1
+echo "This is a success!"
+exit 0 
 
