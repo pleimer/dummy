@@ -1,2 +1,3 @@
 #!/bin/bash
-exit 0
+echo "Here is some test output"
+echo "Goodbye"
