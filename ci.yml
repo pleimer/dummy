@@ -1,0 +1,5 @@
+script:
+        - echo "Hello"
+        - echo "This is a test of new config"
+after_script:
+        - echo: "Cleaned up!"
