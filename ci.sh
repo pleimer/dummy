@@ -2,6 +2,6 @@
 OCP_PROJECT=${OCP_PROJECT:-test-project}
 for i in {1..10}
 do
-	sleep 10
+	sleep 5
 	echo "executing $OCP_PROJECT"
 done
