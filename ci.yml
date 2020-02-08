@@ -1,4 +1,5 @@
 script:
         - ./ci.sh 
+        - echo "Done with script"
 after_script:
         - echo "Cleaned up!"
