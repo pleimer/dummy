@@ -2,4 +2,5 @@ script:
         - ./ci.sh 
         - echo "Done with script"
 after_script:
+        - sleep 10
         - echo "Cleaned up!"
