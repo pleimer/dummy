@@ -1,5 +1,7 @@
 #!/bin/bash
 OCP_PROJECT=${OCP_PROJECT:-test-project}
+set -e
+exit 1
 echo $HOME
 echo $PATH
 for i in {1..10}
