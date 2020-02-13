@@ -1,6 +1,6 @@
 script:
         - ./ci.sh 
-        - echo "Done with script"
+        - echo "Finished tests"
 after_script:
         - sleep 10
         - echo "Cleaned up!"
