@@ -1,11 +1,10 @@
 #!/bin/bash
 OCP_PROJECT=${OCP_PROJECT:-test-project}
 set -e
-exit 1
 echo $HOME
 echo $PATH
 for i in {1..10}
 do
 	echo "executing $OCP_PROJECT"
-	sleep 2
+	sleep 10 
 done
