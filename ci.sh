@@ -6,5 +6,5 @@ echo $PATH
 for i in {1..10}
 do
 	echo "executing $OCP_PROJECT"
-	sleep 10 
+	sleep 1 
 done
