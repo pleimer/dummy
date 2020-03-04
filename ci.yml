@@ -1,5 +1,7 @@
+global:
+ env:
+  OCP_PROJECT: __commit__
 script:
-        - ./ci.sh 
-        - echo "Finished tests"
+- ./ci.sh
 after_script:
-        - echo "Cleaned up!"
+- echo "Got it done"
