@@ -7,5 +7,6 @@ script:
   - echo $OCP_PROJECT
   - echo $REF
   - echo $BRANCH
+  
 after_script:
 - echo "Got it done"
