@@ -9,4 +9,4 @@ script:
   - echo $BRANCH
   
 after_script:
-- echo "Got it done"
+- sleep 60
