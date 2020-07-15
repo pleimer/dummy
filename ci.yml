@@ -1,5 +1,12 @@
+global:
+ env:
+  OCP_PROJECT: __commit__
+  REF: __ref__
+  BRANCH: __branch__
 script:
-        - ./ci.sh 
-        - echo "Finished tests"
+  - echo $OCP_PROJECT
+  - echo $REF
+  - echo $BRANCH
+  
 after_script:
-        - echo "Cleaned up!"
+- sleep 60

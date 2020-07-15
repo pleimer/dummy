@@ -1,10 +1,9 @@
 #!/bin/bash
 OCP_PROJECT=${OCP_PROJECT:-test-project}
-set -e
-echo $HOME
-echo $PATH
+echo "The commit event that triggered me: $OCP_PROJECT"
+
 for i in {1..10}
 do
-	echo "executing $OCP_PROJECT"
-	sleep 2 
+    echo "iteration $i"
+    sleep 10
 done
