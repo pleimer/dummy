@@ -5,8 +5,5 @@ global:
   BRANCH: __branch__
 script:
   - echo $OCP_PROJECT
-  - echo $REF
-  - echo $BRANCH
   
 after_script:
-- sleep 60
