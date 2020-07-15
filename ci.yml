@@ -7,3 +7,4 @@ script:
   - echo $OCP_PROJECT
   
 after_script:
+ - echo "done"
